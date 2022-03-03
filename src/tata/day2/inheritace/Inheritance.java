@@ -62,19 +62,24 @@ On the basis of class, there can be three types of inheritance in java:
  */
 
 //single inheritance example
-class Animal{
+
+/*class Animal{
     void eat(){System.out.println("eating...");}
 }
 class Dog extends Animal{
-    void bark(){System.out.println("barking...");}
+    void bark(){
+        System.out.println("barking...");
+    }
 }
+
+
 class TestInheritance{
     public static void main(String args[]){
         Dog d=new Dog();
         d.bark();
         d.eat();
     }
-}
+}*/
 
 /*
 //multilevel inheritance example
@@ -87,6 +92,7 @@ class Dog extends Animal{
 class BabyDog extends Dog{
     void weep(){System.out.println("weeping...");}
 }
+
 class TestInheritance2{
     public static void main(String args[]){
         BabyDog d=new BabyDog();
@@ -95,10 +101,10 @@ class TestInheritance2{
         d.eat();
 
     }
-}*/
+}
+*/
 
-/*
-    // hierarchical inheritance
+/*    // hierarchical inheritance
     class Animal{
     void eat(){System.out.println("eating...");}
     }
@@ -114,8 +120,7 @@ class TestInheritance2{
     c.meow();
     c.eat();
     //c.bark();//C.T.Error
-    }}
-*/
+    }}*/
 
 
 /*
@@ -143,4 +148,4 @@ class C extends A,B{//suppose if it were
         C obj=new C();
         obj.msg();//Now which msg() method would be invoked?
     }
-}*/
+}*/ // ambiguity problem

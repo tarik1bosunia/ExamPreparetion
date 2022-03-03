@@ -20,15 +20,14 @@ class Student1 {
     String name;
     float fee;
     Student1(int rollno, String name, float fee){
-        rollno=rollno;
-        name=name;
-        fee=fee;
+        this.rollno = rollno;
+        this.name = name;
+        this. fee = fee;
     }
 
-
-
-
-    void display(){System.out.println(rollno+" "+name+" "+fee);}
+    void display(){
+        System.out.println(rollno+" "+name+" "+fee);
+    }
 }
 class TestThis1{
     public static void main(String args[]){
@@ -93,10 +92,12 @@ class StudentCSE{
         this.course=course;
     }
     StudentCSE(int rollno,String name,String course,float fee){
-       // this(rollno,name,course);//reusing constructor //remove comment and check it is working fine
+        this(rollno,name,course);//reusing constructor //remove comment and check it is working fine
         this.fee=fee;
     }
-    void display(){System.out.println(rollno+" "+name+" "+course+" "+fee);}
+    void display(){
+        System.out.println(rollno+" "+name+" "+course+" "+fee);
+    }
 }
 class TestThis7{
     public static void main(String args[]){

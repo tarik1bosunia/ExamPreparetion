@@ -1,4 +1,4 @@
-package com.company.polymorphism;
+package tata.day2.polymorphism;
 
 public class MethodOverLoading {
 }
@@ -28,8 +28,12 @@ public class MethodOverLoading {
 // changing number of arguments
 
 /*class Adder{
-    static int add(int a,int b){return a+b;}
-    static int add(int a,int b,int c){return a+b+c;}
+    static int add(int a,int b){
+        return a+b;
+    }
+    static int add(int a,int b,int c){
+        return a+b+c;
+    }
 }
 class TestOverloading1{
     public static void main(String[] args){
@@ -37,15 +41,15 @@ class TestOverloading1{
         System.out.println(Adder.add(11,11,11));
     }
 }*/
-/*
 // this in a technique to pass unknown number of parameters
-class Adder{
+/*class Adder{
 
-    static int add(int ...hahas){
+    static int add(int ...tata){
         int sum = 0;
-       int l = hahas.length;
+
+       int l = tata.length;
         for (int i = 0; i < l ;i++) {
-            sum += hahas[i];
+            sum += tata[i];
         }
         return sum;
     }
@@ -55,8 +59,7 @@ class TestOverloading1{
         System.out.println(Adder.add(11,11));
         System.out.println(Adder.add(11,11,11));
     }
-}
-*/
+}*/
 
 
 
@@ -75,15 +78,19 @@ class TestOverloading1{
 //2) Method Overloading: changing data type of arguments
 
 /*class Adder{
-    static int add(int a, int b){return a+b;}
-    static double add(double a, double b){return a+b;}
+    static int add(int a, int b){
+        return a+b;
+    }
+    static double add(double a, double b){
+        return a+b;
+    }
 }
 class TestOverloading2{
     public static void main(String[] args){
         System.out.println(Adder.add(11,11));
         System.out.println(Adder.add(12.3,12.6));
     }
-}  */
+}*/
 
 /*
     Q) Why Method Overloading is not possible by changing the return type of method only?

@@ -1,10 +1,8 @@
-package com.company.controlstatements.loops;
+package tata.day2.controlstatements.loops;
 
 public class Loops {
 
 }
-
-
 
 /*
 ====Java for-each Loop
@@ -37,12 +35,12 @@ class ForEachExample {
 class LabeledForExample {
     public static void main(String[] args) {
         //Using Label for outer and for loop
-        aa:
+        a:
         for(int i=1;i<=3;i++){
-            bb:
+            haha:
             for(int j=1;j<=3;j++){
                 if(i==2&&j==2){
-                    break aa;
+                    break a;
                 }
                 System.out.println(i+" "+j);
             }

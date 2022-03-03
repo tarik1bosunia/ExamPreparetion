@@ -93,7 +93,7 @@ The new keyword is used to allocate memory at runtime. All objects get memory in
 
 There are 3 ways to initialize object in Java.
 
-    By reference variable
+    By reference variable// porer din
     By method
     By constructor
 
